@@ -1,4 +1,4 @@
-import styles from './componentes/FichaProducto.module.css';
+import styles from './components/FichaProducto.module.css';
 
 export default function Ficha({ nombre }) {
   return (

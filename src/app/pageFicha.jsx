@@ -1,5 +1,9 @@
-import Ficha from '../Ficha.jsx/index.js';
+import Ficha from './components/Ficha.jsx/index.js';
 
 export default function Home() {
-  return <Ficha nombre="Portátil Lenovo Thinkpad X1" />;
+  return (
+    <>
+      <Ficha nombre="Portátil Lenovo Thinkpad X1" />
+    </>
+  );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './globals.css'
-import './componentes/FichaProducto.module.css'
+import './components/FichaProducto.module.css'
 import Ficha from './Ficha'
 
 export default function page() {
