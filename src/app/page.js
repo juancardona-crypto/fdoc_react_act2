@@ -2,6 +2,7 @@ import React from 'react'
 import './globals.css'
 import './components/FichaProducto.module.css'
 import Ficha from './Ficha'
+import AvisoInline from './components/avisoinline.jsx'
 
 export default function page() {
   return (
@@ -13,6 +14,13 @@ export default function page() {
       </div>
 
       <Ficha nombre="Portátil Lenovo Thinkpad X1" />
+
+      <div style={{ padding: '20px', textAlign: 'center' }}>
+        <h1>EJEMPLO DE ESTILOS EN LINEA</h1>
+      
+ 
+      <AvisoInline />
+      </div>
       
     </>
   )
