@@ -3,6 +3,8 @@ import './globals.css'
 import './components/FichaProducto.module.css'
 import Ficha from './Ficha'
 import AvisoInline from './components/avisoinline.jsx'
+import BadgeEstado from "./components/BadgeEstado";
+
 
 export default function page() {
   return (
@@ -21,7 +23,13 @@ export default function page() {
  
       <AvisoInline />
       </div>
-      
+      <div className="flex flex-col items-center justify-center min-h-screen gap-4 bg-gray-50">
+      <h1 className="text-2xl font-bold mb-4">Ejemplo de BadgeEstado</h1>
+
+      <BadgeEstado estado="Activo" />
+      <BadgeEstado estado="Inactivo" />
+      </div>
+
     </>
   )
 }
