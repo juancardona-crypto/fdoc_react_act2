@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .tarjeta {
   border: 1px solid #ccc;
   padding: 16px;
@@ -21,4 +26,16 @@
 
 .tarjeta button:hover {
   background-color: #0056b3;
+}
+
+.boton {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #218838;
 }
