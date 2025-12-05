@@ -39,7 +39,7 @@ const AvisoInline = () => {
       </h3>
  
       <p style={textoStyle}>
-        ESTO ES UN MENSAJE DE PRUEBA
+        ESTO ES UN MENSAJE DE PRUEBA V
       </p>
     </div>
   );
