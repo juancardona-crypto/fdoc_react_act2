@@ -1,4 +1,6 @@
 import styles from './FichaProducto.module.css';
+import './globals.css'
+
 export default function FichaProducto({ nombre }) {
   return (
     <div className={styles.Ficha}>
