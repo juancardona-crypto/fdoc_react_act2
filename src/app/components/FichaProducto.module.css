@@ -1,0 +1,39 @@
+/* app/components/FichaProducto.module.css */
+/* Método: Módulo CSS -> Aísla clases con nombres únicos */
+/* Por qué usar: ideal para componentes reutilizables sin colisión de clases */
+/* Limitaciones: requiere importación por componente (más archivos). */
+
+.card {
+  border: 1px solid #e6e9ee;
+  padding: 16px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #fbfdff);
+  width: 260px;
+  box-shadow: 0 1px 4px rgba(16,24,40,0.03);
+}
+
+.title {
+  font-size: 1.1rem;
+  margin: 0 0 6px 0;
+  color: #0b1220;
+}
+
+.price {
+  font-weight: 700;
+  color: #0ea5a0; /* teal-400 */
+  margin-bottom: 10px;
+}
+
+.addBtn {
+  padding: 8px 12px;
+  background-color: #0ea5a0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.addBtn:hover {
+  background-color: #08998f;
+}
